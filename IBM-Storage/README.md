@@ -1,4 +1,4 @@
-# IBM resource-management Terraform config for use with blueprint examples
+# IBM Object Storage Terraform config for use with blueprint examples
 
 This template (root module) is used to retrieve the default ResourceGroup and return the ID and name as outputs.  
 
@@ -8,11 +8,13 @@ This template (root module) is used to retrieve the default ResourceGroup and re
 
 This module is meant for use with Terraform version >= 1.0
 
-## Inputs
 
-* none
-
-## Outputs
+## inputs
+* cos_instance_name  
+* cos_storage_plan
+* cos_single_site_loc
 * resource_group_id
-* resource_group_name
 
+## outputs
+- cos_id
+- cos_crn
