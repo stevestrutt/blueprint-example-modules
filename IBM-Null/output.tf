@@ -11,3 +11,12 @@ output "null_value" {
   description = "Null value entry"
   value       = var.null_var
 }
+
+output "output_1" {
+  description = "Null value entry"
+  value       = var.null_var
+}
+output "output_2" {
+  description = "Null value entry"
+  value       = var.null_var
+}
